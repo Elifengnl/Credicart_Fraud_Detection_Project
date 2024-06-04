@@ -5,7 +5,7 @@ import plotly.express as px
 from PIL import Image
 
 # page title
-st.title(":orange[Credit Card Fraud Detection with ANN]")
+st.title(":orange[Credit Card Fraud Detection with XGBoost]")
 
 df0 = pd.read_csv('creditcard.zip', compression='zip')
 df = df0.copy()
