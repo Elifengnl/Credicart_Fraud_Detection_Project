@@ -7,7 +7,7 @@ from PIL import Image
 # page title
 st.title(":orange[Credit Card Fraud Detection with ANN]")
 
-df0 = pd.read_csv('creditcard.csv')
+df0 = pd.read_csv('creditcard.zip', compression='zip')
 df = df0.copy()
 df.drop("Class", axis=1, inplace=True)
 
